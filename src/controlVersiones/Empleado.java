@@ -33,8 +33,8 @@ public void setSalario(double salario) {
 	this.salario = salario;
 }
 
-public void subirsalario (double subida) {
-	salario=salario+subida;
+public void bajarSalario (double subida) {
+	salario=salario-subida;
 }
 
 
